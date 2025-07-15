@@ -1,36 +1,40 @@
+import saImage from "../assets/sa.jpg";
+import pmImage from "../assets/pm.png";
+import docImage from "../assets/doc.jpg";
+import slImage from "../assets/sl.jpg";
 import type { Project } from "../types/types";
 
 export const projects: Project[] = [
   {
     id: 1,
     title: "Student Absence Management WebApp",
-    description: "A web application to track and manage student absences, with admin control and real-time status updates.",
+    description: "...",
     tags: ["Laravel", "MySQL", "Bootstrap", "JavaScript"],
-    image: ".\\src\\assets\\sa.jpg",
+    image: saImage,
     link: "#"
   },
   {
     id: 2,
     title: "Project Manager WebApp",
-    description: "An intuitive project management tool featuring task assignments, timelines, and team collaboration.",
+    description: "...",
     tags: ["Symfony", "MySQL", "Bootstrap", "JavaScript"],
-    image: ".\\src\\assets\\pm.png",
+    image: pmImage,
     link: "#"
   },
   {
     id: 3,
     title: "DockStation",
-    description: "DockStation is a social media web application inspired by Twitter (still under development), designed for real-time content sharing, engagement, and networking.",
+    description: "...",
     tags: ["React", "Tailwindcss", "Laravel", "MySQL"],
-    image: ".\\src\\assets\\doc.jpg",
+    image: docImage,
     link: "#"
   },
   {
     id: 4,
     title: "Reddit Comment Analyzer Data App",
-    description: "A data analytics app that fetches and analyzes Reddit comments using NLP techniques to extract sentiment and insights.",
+    description: "...",
     tags: ["Streamlit", "Python", "Pandas", "NLP", "API"],
-    image: ".\\src\\assets\\sl.jpg",
+    image: slImage,
     link: "#"
   }
 ];
