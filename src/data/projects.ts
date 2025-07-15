@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "Student Absence Management WebApp",
     description: "A web application to track and manage student absences, with admin control and real-time status updates.",
     tags: ["Laravel", "MySQL", "Bootstrap", "JavaScript"],
-    image: "src\\assets\\sa.jpg",
+    image: ".\\src\\assets\\sa.jpg",
     link: "#"
   },
   {
@@ -14,7 +14,7 @@ export const projects: Project[] = [
     title: "Project Manager WebApp",
     description: "An intuitive project management tool featuring task assignments, timelines, and team collaboration.",
     tags: ["Symfony", "MySQL", "Bootstrap", "JavaScript"],
-    image: "src\\assets\\pm.png",
+    image: ".\\src\\assets\\pm.png",
     link: "#"
   },
   {
@@ -22,7 +22,7 @@ export const projects: Project[] = [
     title: "DockStation",
     description: "DockStation is a social media web application inspired by Twitter (still under development), designed for real-time content sharing, engagement, and networking.",
     tags: ["React", "Tailwindcss", "Laravel", "MySQL"],
-    image: "src\\assets\\doc.jpg",
+    image: ".\\src\\assets\\doc.jpg",
     link: "#"
   },
   {
@@ -30,7 +30,7 @@ export const projects: Project[] = [
     title: "Reddit Comment Analyzer Data App",
     description: "A data analytics app that fetches and analyzes Reddit comments using NLP techniques to extract sentiment and insights.",
     tags: ["Streamlit", "Python", "Pandas", "NLP", "API"],
-    image: "src\\assets\\sl.jpg",
+    image: ".\\src\\assets\\sl.jpg",
     link: "#"
   }
 ];
